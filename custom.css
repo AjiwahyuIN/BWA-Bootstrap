@@ -1,0 +1,49 @@
+.btn-primary {
+    background-color: #ff9900;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+.btn-primary:hover {
+    background-color: #e28902;
+    border: 0px;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1px solid rgb(172, 170, 170);
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(172, 170, 170);
+    margin-right: 5px;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid rgb(85, 84, 84);
+    color: rgb(85, 84, 84);
+}
+
+.hero h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+}
+
+.hero p {
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .btn-primary,
+    .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+}
